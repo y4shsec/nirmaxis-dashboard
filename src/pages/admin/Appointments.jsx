@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Layout from "../../components/common/Layout";
 import { getAllAppointments, updateAppointmentStatus } from "../../services/appointments";
 import { getAllPublicBookings } from "../../services/publicBookings";
-import { formatDate, formatDateTime, getStatusColor } from "../../utils/helpers";
+import { formatDate, getStatusColor } from "../../utils/helpers";
 
 const TABS = ["All","Pending","Confirmed","Completed","Cancelled"];
 const SOURCE_TABS = ["All Sources","Patient Portal","Public Website"];

@@ -3,7 +3,7 @@ import Layout from "../../components/common/Layout";
 import { getAllPayments, addPayment } from "../../services/payments";
 import { getAllAppointments } from "../../services/appointments";
 import { getAllPatients } from "../../services/patients";
-import { formatDate, formatINR, getStatusColor } from "../../utils/helpers";
+import { formatDate, formatINR } from "../../utils/helpers";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, PieChart, Pie, Cell,
